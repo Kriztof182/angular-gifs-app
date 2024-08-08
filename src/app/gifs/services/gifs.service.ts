@@ -58,7 +58,7 @@ export class GifsService {
     .subscribe(
       (resp) =>{
         this.gifList = resp.data;
-        console.log({gifs: this.gifList});
+
       }
     );
     // const resp = await fetch('https://api.giphy.com/v1/gifs/search?api_key=c0Ls07WsDWv5f9pgDJrvLQK98dmUmHrY&q=valorant&limit=10');
